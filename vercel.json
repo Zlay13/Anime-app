@@ -1,6 +1,6 @@
 {
   "name": "otakudesu-api",
-  "version": "2",
+  "version": 2,
   "builds": [
     {
       "src": "routes/index.js",
