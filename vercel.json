@@ -3,11 +3,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "routes/index.js",
-      "use": "@vercel/node"
+      "src" : "/app.js" ,
+      "gunakan" : "@vercel/simpul"
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "routes/index.js" }
+    { "src": "/(.*)", "dest": "/app.js" }
   ]
 }
